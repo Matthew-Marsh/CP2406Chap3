@@ -2,9 +2,7 @@ public class Exercise6 {
     public static void main(String[] args) {
 
         int highestDivisor = 0;
-        int numberWithHighestDivisor = 0;
-        int[] numbers;
-        numbers = new int[10001];
+        int[] numbers = new int[10001];
         numbers[1] = 1;
         for (int currentInteger = 1; currentInteger <= 10000; currentInteger++) {
             int numberOfDivisors = 0;
